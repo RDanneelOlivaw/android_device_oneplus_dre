@@ -162,6 +162,7 @@ DISPLAY_HAL_DIR := hardware/qcom-caf/sm8350/display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
+    gralloc.qcom \
     init.qti.display_boot.sh \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.composer-service \
