@@ -1,6 +1,5 @@
 swr_dlkm.ko
 native_dlkm.ko
-wcd937x_slave_dlkm.ko
 btpower.ko
 q6_pdr_dlkm.ko
 va_macro_dlkm.ko
@@ -10,7 +9,6 @@ snd_event_dlkm.ko
 machine_dlkm.ko
 wcd938x_dlkm.ko
 wcd_core_dlkm.ko
-wcd937x_dlkm.ko
 adsp_loader_dlkm.ko
 q6_dlkm.ko
 sia81xx_dlkm.ko
