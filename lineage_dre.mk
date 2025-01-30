@@ -32,10 +32,16 @@ PRODUCT_MODEL := DE2117
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
+RISING_PACKAGE_TYPE := "VANILLA_AOSP"
+
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="OnePlusN200-user 12 SKQ1.210216.001 R.1a8c53e-1-16457e release-keys" \
     BuildFingerprint=OnePlus/OnePlusN200/OnePlusN200:12/SKQ1.210216.001/R.1a8c53e-1-16457e:user/release-keys \
     DeviceName=OnePlusN200 \
     DeviceProduct=OnePlusN200 \
     SystemDevice=OnePlusN200 \
-    SystemName=OnePlusN200
+    SystemName=OnePlusN200 \
+    RisingChipset="Snapdragon 480 5G" \
+    RisingMaintainer="RDaneelOlivaw"
